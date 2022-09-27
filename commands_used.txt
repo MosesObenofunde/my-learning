@@ -1,0 +1,102 @@
+  git --version
+  166  git config --list
+  167  git remote -v
+  168  git config --help
+  169  touch a.py b.py c.py d.py
+  170  vim .gitignore
+  171  git status
+  172  git add *
+  173  git status
+  174  git add -A
+  175  git status
+  176  git reset
+  177  git status
+  178  git add -A
+  179  git status
+  180  git commit -m "first commit"
+  181  git log
+  182  git branch
+  183  git branch -a
+  184  vim d.py
+  185  vim d.py
+  186  git diff
+  187  git add -A
+  188  git pull
+  189  git pull origin master
+  190  git pull origin main
+  191  git status
+  192  git commit -m "adding python code"
+  193  git push
+  194  git branch demo-1
+  195  git branch -a
+  196  git checkout demo-1
+  197  git checkout -b demo-branch
+  198  git push origin -u demo-1
+  199  git checkout demo-1
+  200  git branch -a
+  201  vim d.py
+  202  git status
+  203  git add d.py
+  204  git status
+  205  git commit -m "preparing to merge"
+  206  git push origin -u demo-1
+  207  git checkout main
+  208  git pull origin main
+  209  git branch
+  210  git branch --merged
+  211  git merge demo-branch
+  212  git merge demo-1
+  213  git push origin main
+  214  git branch -d demo-branch
+  215  git branch -a
+  216  git push origin --delete demo-branch
+  217  vim d.py
+  218  vim e.py
+  219  git add e.py
+  220  git commit -m "adding new file"
+  221  git push --force
+  222  git log
+  223  git reset --hard 16abd947058880b7d4ac6c16376d19e4995e7f32
+  224  git log
+  225  git push
+  226  git push --force
+  227  git branch
+  228  git checkout demo-1
+  229  git log
+  230  git pull origin main
+  231  git log
+  232  ls
+  233  vim d.py
+  234  git add d.py
+  235  git commit -m "testing rebase"
+  236  git push origin demo-1
+  237  git log
+  238  git checkout main
+  239  git log
+  240  git checkout demo-1
+  241  git rebase main
+  242  git checkout main
+  243  git rebase demo-1
+  244  git log
+  245  git log
+  246  tree
+  247  git tree
+  248  git mktree
+  249  ls
+  250  echo "test for revert" > e.txt
+  251  ls
+  252  cat e.txt
+  253  git add -A
+  254  git commit -m "test for revert command"
+  255  git log
+  256  git log -1
+  257  git revert 81a20997a47dcd7b662793ebd0fa1dbaab5e00b9
+  258  git log -a
+  259  git log -1
+  260  git log
+  261  git log -4
+  262  git log -5
+  263  git revert 0666114a215b5341ee1a374e7423721e65d8ce93
+  264  git push
+  265  history
+
